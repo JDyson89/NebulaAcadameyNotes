@@ -1,0 +1,41 @@
+Vocabulary Assignment
+
+What is Git?
+-a system that makes it easier to track changes to files
+
+
+What is GitHub?
+-a code hosting platform for version control and collaboration
+
+
+What is VS Code?
+-a code editor with support for development operations like debugging, task running, and version control
+
+
+What is a Command line interface?
+-processes commands to a computer program in the form of lines of text
+
+
+What are some CLI commands we learned today?
+-I do not remember
+
+
+What does git init do?
+-a command that creates a new Git repository
+
+
+What does git add do?
+-command that adds a change in the working directory to the staging area
+
+
+What does git commit -m do?
+-not sure
+
+
+What does git push do?
+-how you transfer commits from your local repository to a remote repo.
+
+
+
+What does git pull do?
+-used to fetch and download content from a remote repository and immediately update the local repository to match that content
