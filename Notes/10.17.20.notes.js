@@ -1,13 +1,13 @@
 // Calculate the remainder of 15/2, log the string: 'the remainder of 15/2 is (remainder)'
-// let remain = Math.floor(15/2);
+
+
 // let min = (15 % 2);
 // console.log(min);
 // console.log(`the remainder of 15/2 is ${min}`);
+// console.log('the remainder of 15/2 is ' + min);
 
-
-// // Calculate the remainder of 30/2, log the string: 'the remainder of 30/2 is (remainder)'
-// let thirty = Math.floor(30/2);
-// console.log(thirty);
+// // // // Calculate the remainder of 30/2, log the string: 'the remainder of 30/2 is (remainder)'
+// console.log(30/2);
 // let win = (30 % 2);
 // console.log(`the remainder of 30/2 is ${win}`);
  
@@ -24,9 +24,9 @@
 // console.log(5 != '5');
 // // Log the boolean of  5 !== '5'
 // console.log(5 !== '5');
-// // Log the boolean of 5 == 5 && 5 ==6
-// console.log(5 =='5' && 5 == '6');
-// // Log the boolean of 5 ==5 || 5 ==6
+// Log the boolean of 5 == 5 && 5 ==6
+console.log(5 == 5 && 5 == 6);
+// Log the boolean of 5 ==5 || 5 ==6
 // console.log(5 == 5 || 5 == 6);
  
 
