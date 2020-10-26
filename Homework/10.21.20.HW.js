@@ -1,11 +1,14 @@
 // using this array: let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
+// log the length of the array
+console.log(days.length);
+
 // log the 4th element in the array
 console.log(days [4]);
 
 // remove the first element in the array. Log the new array and the element removed from the array
-console.log(days.shift());
+console.log(days.shift()); // Sunday
 console.log(days);
 
 // Add 'Sunday' at the beginning of the array and log the new array
@@ -21,6 +24,7 @@ days.push('Saturday');
 console.log(days);
 
 // replace 'Thursday' with 'Friday Junior'
+days.splice(4,1, 'Friday Junior');
 days.splice(-3,1, 'Friday Junior');
 console.log(days);
 
