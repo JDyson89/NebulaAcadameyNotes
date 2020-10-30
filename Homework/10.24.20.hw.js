@@ -111,29 +111,28 @@ let names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Edd
 
 // //Create a funciton that returns the string, 'Hi Jasmine and Daja!'
 function stringBack (names){
-    console.log(names[0])
-    console.log(names[5])
-
     return `Hi ${names[0]} and ${names[5]}!`
 }
 console.log(stringBack(names))
 
 // //Create a function that returns the string, 'Howdy Eddy!'
-function howdyEd(name){
-    console.log(name[6])
-    return `Howdy ${name[6]}!`
+
+function howdyEd(name){   
+    return `Howdy ${name}!`
 }
-console.log(howdyEd(names))
+console.log(howdyEd(names[6]))
 
 // //Create a function that returns the string, 'Happy Monday, Anitria!'
-// function happyMonday(name){
-//     return `Happy Monday, ${name}!`
-// }
-// console.log(happyMonday('Anitria'))
+
+function happyMonday(name){
+    return `Happy Monday, ${name}!`
+}
+console.log(happyMonday(names[3]))
 
 
 // //Create a function that returns the string, 'Hey Tauseef!'
-// function heyT(name){
-//     return `Hey ${name}!`
-// }
-// console.log(heyT('Tauseef'))
+
+function heyT(name){
+    return `Hey ${name}!`
+}
+console.log(heyT(names[4]));
