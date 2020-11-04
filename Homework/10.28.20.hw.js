@@ -75,15 +75,15 @@
 // Create a function called lastTwoEle that takes in an array as a parameter.
 // This function will return the last two elements of any array passed into this function as an argument.
 
-function lastTwoEle (parameter1){
-    return parameter1.slice(-2)
-}
-console.log(lastTwoEle(['Maurice', 'Eddy', 'Anitria', 'Daja', 'Chelsea', 'Jasmine']));
+// function lastTwoEle (parameter1){
+//     return parameter1.slice(-2)
+// }
+// console.log(lastTwoEle(['Maurice', 'Eddy', 'Anitria', 'Daja', 'Chelsea', 'Jasmine']));
 
 // Problem 10
 // Create a function called removeFirst that takes in an array as a parameter.
 // This function removes the first elements from any array that is passed into this function as an argument.
-function removeFirst (holly){
-    return holly.shift()
-}
-console.log(removeFirst(['Maurice', 'Eddy', 'Anitria', 'Daja', 'Chelsea', 'Jasmine']))
+// function removeFirst (holly){
+//     return holly.shift()
+// }
+// console.log(removeFirst(['Maurice', 'Eddy', 'Anitria', 'Daja', 'Chelsea', 'Jasmine']))
