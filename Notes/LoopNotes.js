@@ -70,16 +70,16 @@
 //WHILE INTRO
 //while(condition) has to be true
 //while loops continue until the condition isn't met anymore
-function whileTrue (num){
-    let counter = 0
-    while(counter <= num){
+// function whileTrue (num){
+//     let counter = 0
+//     while(counter <= num){
         
-        console.log(counter)
-        counter ++ // adding 1 everytime you log and reassigning that number to counter
-    }
-    return 'it works'
-}
-console.log(whileTrue(5));
+//         console.log(counter)
+//         counter ++ // adding 1 everytime you log and reassigning that number to counter
+//     }
+//     return 'it works'
+// }
+// console.log(whileTrue(5));
 
 // DO-WHILE Loop//
 // Opposite pattern for regular 'while' loop
@@ -88,12 +88,48 @@ console.log(whileTrue(5));
 
 // } while(condition)
 
-function doWhile(){
-    let counter = 0
-    do {
-        console.log(counter)
-        counter ++
+// function doWhile(){
+//     let counter = 0
+//     do {
+//         console.log(counter)
+//         counter ++
+// }
+//     while (counter <= num)
+//     return 'loop works'
+// }
+
+
+// PRACTICE PROBLEMS
+
+// given an array of numbers: let numArray = [12, 3, 5, 12, 5, 23, 8, 4] 
+// create a function that iterates through the array
+// and log each element
+
+// let numArray = [12, 3, 5, 12, 5, 23, 8, 4] 
+
+// function throughArray (array){
+//     for (let i = 0; i < array.length; i++){
+        
+//         console.log(array[i])
+
+//     }
+        // return 'got it'
+// }
+// console.log(throughArray(numArray));
+
+
+// given a string: let 'software decelopment'
+// create a function that iterates through the string
+// and log each character 
+
+
+let software = 'software decelopment'
+
+function iterateString(){
+    for (let i = 0; i < software.length; i++){
+        console.log(software[i])
+    }
+    return 'done!'
 }
-    while (counter <= num)
-    return 'loop works'
-}
+
+console.log(iterateString(software));
