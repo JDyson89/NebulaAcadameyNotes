@@ -7,9 +7,19 @@
 
 // function doesAExist (letter){
 //         if (string.indexOf('a') >= 0){
-//             return 'The letter a does exist in the string'
+//             return `The letter a exists in the string: ${string}`
+//         } 
+//         else {
+//             return 'The letter a does not exist in the string'
+//         }
+//     }
+//     console.log(doesAExist(string));
+
+//     function doesAExist (letter){
+//         if (string.indexOf('a') === -1){
+//             return `The letter a does exist in the string: ${string}`
 //         } else {
-//             return 'the letter a does not exist in the string'
+//             return `the letter a does not exist in the string: ${string}`
 //         }
 //     }
 //     console.log(doesAExist(string));
@@ -26,8 +36,8 @@
 //         return 'It is not an array!'
 //     }
 // }
-// console.log(isAnArray(8))
 // console.log(isAnArray([1, 2, 3]));
+// console.log(isAnArray(8));
  
 
 // Q3:
@@ -36,14 +46,15 @@
 // If the number is an odd number, return the string: '(number) is an odd number'
 
 // function isNumEven (num){
-//         if (num % 4 === 0){
+//         if (num % 2 === 0){
 //             return `the number ${num} is an even number`
 //         } else {
 //             return `the number ${num} is an odd number`
 //         }
 //     }
-//     console.log(isNumEven(16))
+//     console.log(isNumEven(16));
 //     console.log(isNumEven(15));
+//     console.log(isNumEven(26));
 
 
 
