@@ -9,16 +9,16 @@
 
 //  function typeOfArgument (which){
 //      if (typeof which === 'string'){
-//          return 'it is a string'
+//          return which
 //      }
 //      if (typeof which === 'number'){
-//          return 'it is a number'
+//          return which
 //      }
 //      if (typeof which === 'boolean'){
-//          return 'it is a boolean'
+//          return which
 //      }
-//      else if (Array.isArray(which))
-//          return 'it is an array'
+//      if (Array.isArray(which))
+//          return which
 //  }
 
 // console.log(typeOfArgument('blessed'));
@@ -35,19 +35,17 @@
 // IF one of the numbers is greater than 50 and the other is less than 50, divide the two numbers: return num1/num2
 
 // function twoParams(num1, num2){
-//     if (num1 > 50 && num2 > 50)
-//     {
+//     if (num1 > 50 && num2 > 50){
 //         return num1*num2
 //     } 
 //     else if (num1 < 50 && num2 < 50){
 //         return num1+num2
 //     }
 //     //trying to get one number greater than 50 and one number less than 50
-//     else if (num1 > 50 || num2 > 50 && num1 < 50 || num2 < 50){
+//     else if ((num1 > 50 || num2 > 50) && (num1 < 50 || num2 < 50)){
 //         return num1/num2
 //     }
 // }
-
 // console.log(twoParams(55, 80));
 // console.log(twoParams(10, 22));
 // console.log(twoParams(5, 55));
@@ -58,27 +56,16 @@
 // IF the first number divided by the second number has a remainder, return the string: 'the remainder if (num1) divided by (num2) is (remainder)
 // IF there is no remainder, return the string: '(num1) divided by (num2) has no remainders'
 // function twoNumParams (num1, num2){
-//     if (num1/num2 === 0){
-//         return `if ${num1} is divided by ${num2} the remainder is (remainder)`
+//     let remainder = num1 % num2
+//     if (num1  % num2 === 1){
+//         return `the remainder of ${num1} is divided by ${num2} the remainder is ${remainder}`
 //     }
 //     else {
 //         return `${num1} divided by ${num2} has no remainder`
 // }
 // }
 // console.log(twoNumParams(16, 4));
-
-// function twoNumParams (num1, num2){
-//     let remainder = num1 % num2
-//     if (remainder > 0){ 
-//         return `if ${num1} is divided by ${num2} the remainder is ${remainder}`
-//     }
-//     else {
-//         return `${num1} divided by ${num2} has no remainder`
-//     }
-// }
-// console.log(twoNumParams(21, 4));
-
-
+// console.log(twoNumParams(21, 4))
 
 // Problem #4
 
@@ -87,7 +74,7 @@
 // IF it is an even number, return the string: 'the length of (string) is an even number'
 
 //  function lengthOf (str){
-//      console.log(str.length)
+//     //  console.log(str.length)
 //      if (str.length % 2 !== 0){
 //         return `the length of "${str}" is a odd number`
 //      }
