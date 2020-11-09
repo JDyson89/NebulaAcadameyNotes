@@ -42,3 +42,69 @@
     // }
 // }
 // console.log(takeArray(['10', '20', '30', '40', '50']))
+
+// Create a function that takes in a string and returns the reverse of it
+
+// let practice = 'Watermelon'
+
+// function takeIn (string){
+//     let output = '';
+
+//     for (let i = string.length - 1; i >= 0; i--){
+//         output = output + string[i];
+//     }
+//     return output
+// }
+// console.log(takeIn(practice));
+
+// let testStr = "hi "
+// let testStr2 = "Anitria"
+// // given these two variables, save a new string that evaluates to
+// // "hi Anitria"
+
+// console.log(testStr.concat(testStr2))
+
+// let testStr3 = testStr.concat(testStr2)
+
+// // Now add a period to your new string, then log it
+// testStr3 = testStr3 + '.'
+// console.log(testStr3)
+
+// Create a function that checks to see if a string contains
+// the letter 'e'. If it does, return the index of 'e'.
+// (you only need to find the first occurence of e)
+// (also, DON'T USE ANY METHODS)
+
+// let letterString = 'session'
+
+// function doesEAppear(string){
+//     let stringer = ['e']
+
+//     for (let i = 0; i < string.length; i++){
+//         console.log(string[i])
+//     } if (stringer === ['e']){
+//         // index of e
+//         return letterString 
+//     }
+// }
+// console.log(doesEAppear.indexOf(letterString[e]));
+
+
+
+//ATTEMPT TWO
+// Create a function that checks to see if a string contains
+// the letter 'e'. If it does, return the index of 'e'.
+// (you only need to find the first occurence of e)
+// (also, DON'T USE ANY METHODS)
+
+let letterString = 'session'
+
+function doesEAppear(string){
+
+    for (let i = 0; i < string.length; i++){
+        if (string[i] === 'e') {
+        return i
+    }
+}    
+}
+console.log(doesEAppear(letterString));
