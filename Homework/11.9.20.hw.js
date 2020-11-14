@@ -66,15 +66,14 @@
 
 // function acceptArray (array, value){
 //     for (let i = 0; i < array.length; i++){
-//         if (array.includes(value)){
+//         if (array[i] === value){
 //             return true
-//         }
-//         else {
-//     }
+//         }            
+//     } 
 //         return false
 // }
-// }
 // console.log(acceptArray(['blue', 'orange', 'green', 'purple'], ('pink')))
+// console.log(acceptArray(['blue', 'orange', 'green', 'purple'], ('green')))
 
 // Examples for problem #4 what the function invocation could look like:
 
@@ -110,9 +109,8 @@
 
 
 // Part 4
-// let numbers = [1, 4, 6, 8, 9]
 
- 
+let numbers = [1, 4, 6, 8, 9]
 
 // Problem # 6
 
@@ -120,7 +118,7 @@
 // This function will return a new array with number that are NOT divisible by 3
 
 // function divisible (numberThree){
-//     let total = []
+//     let total = [];
 //     for (let i = 0; i < numberThree.length; i++){
 //         if (numberThree[i] % 3 !== 0){
 //             total.push(numberThree[i])
@@ -128,7 +126,7 @@
 //     }
 //     return total
 // }
-// console.log(divisible(numbers)) 
+// console.log(divisible(numbers));
 
  
 
@@ -138,14 +136,26 @@
 // in the array that are NOT divisible by 3 and 
 // return the total
 
-// function notDivisible (nums){
-//         let total = 0
-//         for (let i = 0; i < nums.length; i++){
-//             if (nums[i] % 3 === 0){
-//                 continue
-//             }
-//             total += nums[i]
-//         }
-//             return total
-//     }
-//     console.log(notDivisible(numbers))
+function notDivisible (nums){
+        let total = 0
+        for (let i = 0; i < nums.length; i++){
+            if (nums[i] % 3 === 0){
+                continue
+            }
+            total += nums[i]
+        }
+            return total
+    }
+    console.log(notDivisible(numbers));
+
+    // Another way to do problem
+    function notDivisible (nums){
+        let total = 0
+        for (let i = 0; i < nums.length; i++){
+            if (nums[i] % 3 !== 0){
+                total += nums[i]
+            }
+        }
+            return total
+    }
+    console.log(notDivisible(numbers));
