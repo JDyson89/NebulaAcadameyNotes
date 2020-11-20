@@ -115,7 +115,8 @@ let numbers = [1, 4, 6, 8, 9]
 // Problem # 6
 
 // Create a function that takes in a array of numbers.
-// This function will return a new array with number that are NOT divisible by 3
+// This function will return a new array with number that are
+// NOT divisible by 3
 
 // function divisible (numberThree){
 //     let total = [];
