@@ -43,7 +43,8 @@
 // }
 // console.log(takeArray(['10', '20', '30', '40', '50']))
 
-// Create a function that takes in a string and returns the reverse of it
+// Create a function that takes in a string and returns 
+// the reverse of it
 
 // let practice = 'Watermelon'
 

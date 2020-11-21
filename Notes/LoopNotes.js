@@ -123,7 +123,7 @@
 // and log each character 
 
 
-let software = 'software decelopment'
+let software = 'software development'
 
 function iterateString(){
     for (let i = 0; i < software.length; i++){
