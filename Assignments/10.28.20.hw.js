@@ -36,7 +36,7 @@
 // Create a function called squareRoot that takes in a number as a parameter.
 // This function will return the square roof of any number that is passed in as an argument
 // function squareRoot (number){
-//          return squareRoot(Math.sqrt(number))
+//          return Math.sqrt(number)
 //      }
 //     console.log(Math.sqrt(81));
  

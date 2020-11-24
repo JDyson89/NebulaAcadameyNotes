@@ -16,7 +16,7 @@ let studentObject2 = {
 
 // function studentTwo (object){
 //     for (let key in object){
-//         let name = object[key]
+//         let name = object.key
 //         let age = object.age
     
 //     return `${name} is ${age} years old` 
@@ -30,6 +30,7 @@ let studentObject2 = {
 //not. If they are 21+, return the string, 
 //'welcome, (name)!'
 //if not, return the string, 'try again in a couple years'
+// Ask about to params for this problem
 
 // function twoStudents(object){
 //     let name = object.name
@@ -47,29 +48,23 @@ let studentObject2 = {
 //Problem #3
 //create a function that returns the keys in an array
 // function keyReturn (objects){
-//     for (let key in objects){
-//         console.log(key)
-//     }
+//     return Objects.keys(studentObject1)
+
 // }
 // console.log(Object.keys(studentObject1));
 
-
 //create a funciton that return the values in an array
 // function valueReturn (objects){
-//     for (let key in objects){
-        
-//     }
+//     return Object.values(studentObject2)
 // }
-// console.log(Object.values(studentObject2))
-
+// console.log(valueReturn(studentObject2))
 
 //Problem #4
 //Create a function that deletes the 'id' key value pairs
+
 // function idDelete (objects){
-//     for (let key in objects)
-//     console.log(key)
-//     delete studentObject1.id
-//     console.log(studentObject1)
+//    delete objects.id
+//     return objects
 // }
 // console.log(idDelete(studentObject1))
 
@@ -78,13 +73,19 @@ let studentObject2 = {
 //create a function that takes in the student objects
 // above and their birthdates (come up with their birthdates)
 // as parameters.
+function birthDates (object){
+      object['Birth'] = '7/3/89'
+            return object
+}
+console.log(birthDates(studentObject1))
+
 // function birthDates (object){
-//     // for (let key in object){
+//     for (let key in object){
 //        studentObject1['Birthdate'] = 'July 3, 1989'
 //             console.log(studentObject1)
 //         studentObject2['Birthdate'] = 'March 8, 2019'
 //             console.log(studentObject2)
-//     // }
+//     }
 // }
 // console.log(birthDates(studentObject1, studentObject2))
 // console.log(studentObject2)
