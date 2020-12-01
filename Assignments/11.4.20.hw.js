@@ -57,7 +57,7 @@
 // IF there is no remainder, return the string: '(num1) divided by (num2) has no remainders'
 // function twoNumParams (num1, num2){
 //     let remainder = num1 % num2
-//     if (num1  % num2 === 1){
+//     if (num1  % num2 >= 1){
 //         return `the remainder of ${num1} is divided by ${num2} the remainder is ${remainder}`
 //     }
 //     else {
