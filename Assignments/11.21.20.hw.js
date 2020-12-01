@@ -87,8 +87,8 @@ console.log(birthDates(studentObject1))
 //             console.log(studentObject2)
 //     }
 // }
-// console.log(birthDates(studentObject1, studentObject2))
-// console.log(studentObject2)
+// console.log(birthDates(studentObject1))
+// console.log(birthDate(studentObject2))
 
 
 //This function will add a new birthdate key value pair
