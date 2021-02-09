@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Butterfly Kids', cursive;
+    font-size: 20px;
+    background-image: url('images/The_Good_Dinosaur.jpg');
+    background-size: cover;
+}
+
+#calculator {
+    display: flex;
+    text-align: center;
+    border: 2px solid blue;
+    background-color: lightblue;
+    border-radius: 40px;
+    padding: 60px;
+    justify-content: center;
+    width: 150px;
+}
+
+#content {
+    color:lightcoral
+}
+
+#screen {
+    border: 1px solid; 
+    border-color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 5px 5px;
+    border: 1px 1px;
+    padding-top: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;  
+    border: 2px solid red;
+    height: 30px;
+    border-radius:50%;
+    width: 30px;
+    align-items: center;
+}
+
+.buttons:hover {
+    background-color: rgb(162, 204, 169);
+    color: white;
+    cursor: url(./images/tyrannosaurus.jpg), auto;
+}
+
