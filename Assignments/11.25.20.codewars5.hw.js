@@ -59,7 +59,20 @@
 
 
 // Problem #3 Life Path Number
+// https://www.codewars.com/kata/5a1a76c8a7ad6aa26a0007a0
 
+// function lifePathNumber(dateOfBirth) {
+//     let DOB = dateOfBirth.split('-')
+//     let year = DOB[0]
+//     let month = DOB[1]
+//     let day = DOB[2]
+//     let y = (year - 1) % 9 + 1
+//     let m = (month - 1) % 9 + 1
+//     let d = (day - 1) % 9 + 1
+//     let total = y + m + d
+//     return (total -1) % 9 + 1
+// }
+// console.log(lifePathNumber("1879-03-14"))
 
 
 // Problem #4 Form the Largest

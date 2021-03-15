@@ -25,3 +25,36 @@ console.log(Object.keys(personal))
 
 // create a funciton that returns the values in an array format
 console.log(Object.values(personal))
+
+//practice
+
+let animals = {
+    kangaroo: {
+        name: 'Joey',
+        age: 10
+    },
+    camel: {
+        name: 'Cathy',
+        age: 2
+    },
+    cow: {
+        name: 'Sean',
+        age: 15
+    },
+    turtle: {
+        name: 'Victoria',
+        age: 100
+    }  
+}
+// create a funciton that loops through the animals object 
+// and logs the string for each object: (name) the (animal) is (age) years old. 
+function animalInfo (animals){
+  for(let key in animals){
+    let name = animals[key].name
+    let animal = key
+    let age = animals[key].age
+    console.log(`${name} the ${animal} is ${age} years old`)
+  }
+  return 'Done!'
+}
+console.log(animalInfo(animals))
