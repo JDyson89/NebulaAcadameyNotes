@@ -78,3 +78,12 @@
 // Problem #4 Form the Largest
 https://www.codewars.com/kata/5a4ea304b3bfa89a9900008e
 
+// function digitize(n) {
+//     let string= n.toString()
+//     let newArray= string.split('')
+//     console.log(newArray)
+//     let reversed= newArray.reverse()
+//     //loop through array and change strings into number 
+//    return reversed.map(Number)
+    
+//   }

@@ -75,3 +75,13 @@
 // Problem #6
 // Convert number to reversed array of digits
 // https://www.codewars.com/kata/5583090cbe83f4fd8c000051
+
+// function digitize(n) {
+//     let string= n.toString()
+//     let newArray= string.split('')
+//     console.log(newArray)
+//     let reversed= newArray.reverse()
+//     //loop through array and change strings into number 
+//    return reversed.map(Number)
+    
+//   }
