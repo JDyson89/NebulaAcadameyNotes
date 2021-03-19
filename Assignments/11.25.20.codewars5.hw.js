@@ -78,12 +78,13 @@
 // Problem #4 Form the Largest
 https://www.codewars.com/kata/5a4ea304b3bfa89a9900008e
 
-// function digitize(n) {
+// function maxNumber(n){
+//     //turn numbers into string
 //     let string= n.toString()
+//     //split the string of numbers and turn it back into number 
 //     let newArray= string.split('')
-//     console.log(newArray)
-//     let reversed= newArray.reverse()
-//     //loop through array and change strings into number 
-//    return reversed.map(Number)
-    
+//     //sort the number and join them back to number
+//       newArray.sort((a, b) => b -a)
+//     let newer = newArray.join('')
+//      return parseInt(newer)  
 //   }

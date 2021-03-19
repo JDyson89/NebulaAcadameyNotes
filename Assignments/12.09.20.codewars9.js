@@ -126,7 +126,3 @@
 //         return `Oi! Sheep number ${i}! You are about to be eaten by a wolf!`
 //       }
 //     }
-//   //   REVERSED ARRAY EXAMPLE
-//   //   ["sheep", "sheep", "wolf", "sheep", "sheep", "sheep", "sheep", "sheep"]
-//   //       1        2        3        4        5        6        7        8
-//   }

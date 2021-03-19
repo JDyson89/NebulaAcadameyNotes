@@ -135,14 +135,6 @@
 //     }
 //     return result.join('\n')
 //   }
-  
-//   // [I, ' I', '  I', '   I'].join('\n')
-//   // '
-//   // I 
-//   //  I 
-//   //   I
-//   //    I
-//   // '
 
 // Remove String Spaces
 // https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/javascript
@@ -150,8 +142,6 @@
 // function noSpace(x){
 //     return x.split(' ').join('')
 // }
-
-// LeetCode Problem:
 
 // TwoSum:
 // https://leetcode.com/problems/two-sum
@@ -168,15 +158,3 @@
 //      }
 //     return result
 // };
-
-
-// // arr = [11,15,2,7]
-// // target = 9
-
-// // i        arr[i]        j = i+1        arr[j]        arr[i] + arr[j] === target
-// // 0           11            1              15            11 + 15 = 26 === 9 -> false
-// // 1           15            2               2            15 + 2  = 17 === 9 -> false
-// // 2           2             3               7             2 + 7  = 9 === 9 -> true
-
-// // result.push(i) -> [2]
-// // result.push(j) -> [2, 3]

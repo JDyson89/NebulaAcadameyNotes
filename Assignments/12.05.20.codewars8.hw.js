@@ -52,9 +52,40 @@
 
 // Sum of differences in array
 // https://www.codewars.com/kata/5b73fe9fb3d9776fbf00009e
+// function sumOfDifferences(arr) {
+//     if(arr.length < 2)
+//       return 0
+//     //sort the numbers from greatest to smallest
+//     arr.sort((a,b) => b-a)
+//      let sum = []
+//     //loop through the array to sum the consecutive numbers
+//     for(let i= 0; i < arr.length; i++){
+//        sum.push(arr[i] - arr[i +1])
+//     }
+//     sum.pop()
+//       return sum.reduce((a,b) => a + b)
+//   }
 
 // take the derivative
 // https://www.codewars.com/kata/5963c18ecb97be020b0000a2
+// function derive(coefficient,exponent) {
+//     let multiply = coefficient * exponent
+//     let subtraction = exponent - 1
+//       return `${multiply}x^${subtraction}`
+//     }
+
 
 // Total amount of points
 // https://www.codewars.com/kata/5bb904724c47249b10000131/train/javascript
+// function points(games) {
+//     let total= 0;
+//     games.forEach(game => {
+//       const [x,y] = game.split(':').map(Number);
+//         if(x>y){
+//           total+= 3
+//         } else if(x===y){
+//           total+= 1
+//         }
+//       })
+//         return total
+//   }
