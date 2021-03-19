@@ -1,14 +1,7 @@
 // Quarter of the year
 // https://www.codewars.com/kata/5ce9c1000bab0b001134f5af
 
-// const quarterOf = (month) => {
-//     //   input: month in number 
-//     //   output: quarter in number 
-//     //   [X] create a if condition - if the month falls within the first 3 indexes, return 1
-//     //   [X] If the month falls within the months 4-6, return 2
-//     //   [X] if months falls within 7-9, return 3
-//     //   [X] else return 4
-      
+// const quarterOf = (month) => {      
 //       if (month < 4 ){
 //           return 1
 //       }
@@ -29,14 +22,6 @@
 // https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce
 
 // function multiTable(number) {
-//     //   input: single digit 
-//     //   output: string of individual equation from 1-10 multiplied by the number
-//     //   [X] create empty string as a placeholder
-//     //   [X] loop through 1-10
-//     //   [X] number * index to get the total for the individual equation
-//     //   [X] add the equation in string form onto the epmply string
-//     //   [X] return newString
-      
 //       let result = '';
 //       for (let i = 1; i <= 10; i++){
 //         let total = number * i
@@ -64,15 +49,7 @@
 // Reversed Sequence
 // https://www.codewars.com/kata/5a00e05cc374cb34d100000d
 
-// const reverseSeq = n => {
-//     //   input: n => number
-//     //   output: numbers going backwards from n to 1 in an array form
-//     //   [X] create emply array 
-//     //   [X] loop through the number from n to 1
-//     //   [X] push the numbers into the empy array
-//     //   [X] return the result
-      
-      
+// const reverseSeq = n => {     
 //       let result = [];
       
 //       for (let i = n; i >= 1; i--){
